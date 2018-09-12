@@ -1,1 +1,2 @@
 # Algotitimo de classificação
+Foi usado um knn procurando os 2 vizinhos mais proximo, o modelo foi validade com leave one out, para executar o algoritimo basta rodar a função main e serão dados a acuracia e a matriz de confusão.
