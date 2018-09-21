@@ -1,6 +1,6 @@
 class Database:
     def __init__(self):
-        self.file = open("DataAcess.py.txt", "r")
+        self.file = open("Database.txt", "r")
 
     def selectAll(self):
         data = []
