@@ -15,6 +15,7 @@ class knn:
             neighboors.append([self.dist(case, a['Data']), a['Type']])
         counter = {}
         neighboors.sort()
+
         for a in neighboors[:self.nsize]:
             if a[1] not in counter.keys():
                 counter[a[1]] = 0;
